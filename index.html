@@ -71,187 +71,292 @@
 			<div>	
 
                 <div class="clearfix" style="background-color: #FFF; margin-top: 0px">
-                    <div>
-                      <link rel="preconnect" href="https://fonts.gstatic.com">
-                        <!-- SECTION THAT WILL GO INTO EDITOR -->
-                        
-                        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-                        <style>
-                            .navbar {border: none;background: #fff;max-width: 1200px;margin: auto;}
-                            .navbar-container{max-width: 1200px;}
-                            .navbar-inverse .navbar-brand:hover{color: #004588;}
-                            .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {color: #004588; font-family: 'Montserrat';font-weight: normal;text-decoration: none;}
-                            #main-content {max-width: 1200px;}
-                            a {text-decoration: underline; }
-                            h1{ font-size: 3rem;}
-                            h2{font-size: 2.5rem;}
-                            h3{font-size: 2rem;}
-                            .carousel h1, .carousel h2, .carousel h3 {color: #fff;}
-                            .carousel-caption {background-color: rgb(0, 69, 136, .8); color: #FFF; right: 0; left: 50%;}
-                             h1, h3, h2 {background-color: transparent;width: 100%; text-decoration-color: #fff;font-family: 'Montserrat';}
-                            .services-row {margin: 5rem auto 5rem auto;}
-                            .services-row .card{ padding: .5rem;}
-                            .services-row .card .img-responsive {width: 80%; margin: auto;}
-                            .services-row .card:hover {cursor: pointer;}
-                            .card {
-                              position: relative;
-                              display: inline-block;
-                              border-radius: 5px;
-                              background-color: #fff;
-                              transition: all 0.3s ease-in-out;
-                              height: 100%;
-                            }
-                            .card::after {
-                              content: '';
-                              position: absolute;
-                              z-index: -1;
-                              width: 100%;
-                              height: 100%;
-                              opacity: 0;
-                              border-radius: 5px;
-                              box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-                              transition: opacity 0.3s ease-in-out;
-                              top: 0;
-                            }
-                            .card:hover {
-                              transform: scale(1.1, 1.1);
-                            }
-                            .card:hover::after {
-                              opacity: 1;
-                            }
-                            .card ul li {font-size: 1.3rem; color: #000;}
-                            .featured h1, .featured h2, .featured h3, .featured p {color: #fff;}
-                            @media all and (min-width: 1200px) {.col-lg-2 {width: 20%;}}
-                        </style>
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                              <div class="item active">
-                                <img src="./images/datacenter.png" alt="Large print design photo sample">
-                                <div class="carousel-caption">
-                                  <h2>Large Print Design Now Available!</h2>
-                                  <a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank">
-                                    <h3>Order Now</h3></a>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="row services-row">
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/custom-icon.png" alt="Custom design icon"/>
-                                <h3 class="text-center">Custom Design</h3>
-                                <ul>
-                                    <li>Customized design</li>
-                                    <li>Extended timelines</li>
-                                </ul>
-                              </div>
-                            </a>
-                            </div>
-                            <!--
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="designconductor.html" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/template-icon.png" alt="Templates design icon"/>
-                                <h3 class="text-center">Templates Design</h3>
-                                <ul>
-                                    <li>SDCOE branded templates</li>
-                                    <li>Quick turn-around</li>
-                                </ul>
-                              </div>
-                            </a>
-                            </div>
-                            -->
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/printer.png" alt="Print and copy icon"/>
-                                <h3 class="text-center">Print & Copy</h3>
-                                <ul>
-                                    <li>Black and white copies</li>
-                                    <li>Booklets</li>
-                                    <li>Brochures</li>
-                                    <li>Postcards</li>
-                                </ul>
-                              </div>
-                              </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/poster-icon.png" alt="Wide format icon"/>
-                                <h3 class="text-center">Wide Format</h3>
-                                <ul>
-                                    <li>Bond paper, foam-core, PVC, acrylic, aluminum, etc.</li>
-                                    <li>Posters, banners, vinyl lettering, pop-ups stands, acrylic barriers</li>
-                                </ul>
-                              </div>
-                              </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/laser-engraving-icon.png" alt="Laser projects icon"/>
-                                <h3 class="text-center">Laser projects</h3>
-                                <ul>
-                                    <li>Acrylic awards</li>
-                                    <li>Name plates and badges</li>
-                                    <li>Pens, medals, and</li>
-                                </ul>
-                              </div>
-                              </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-sm-6">
-                              <a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">
-                              <div class="card">
-                                <img class="img-responsive" src="./images/office-materials-icon.png" alt="Office supplies icon"/>
-                                <h3 class="text-center">Office Supplies</h3>
-                                <ul>
-                                    <li>Envelopes and Letterhead</li>
-                                    <li>SDCOE Pocket folders</li>
-                                    <li>Calendars</li>
-                                    <li>Paper, Boxes, and Binders</li>
-                                </ul>
-                              </div>
-                              </a>
-                            </div>
-                        </div>
-                        <div class="featured text-center row" style="background-image: url('././images/background2.png');padding: 4rem 2rem 12rem; margin-bottom: 7rem;">
-                          <h1>Featured</h1>
-                          <hr>
-                          <br><br>
-                          <a href="http://designprint.sdcoe.net/PSP/appNet/Store/StoreHomeV12.aspx?StoreOrderId=0&CatID=2" style="color:#fff;"><h3>2021 Calendars</h3></a>
-                          <p>Now available <a href="http://www.sdcoe.webdeskprint.com/psp/appNet/Store/ItemDetailV12.aspx?ItemPtr=273&StoreOrderId=0&CatID=" target="_blank" style="color:#fff;">2021 desk calendars</a> and <a href="http://designprint.sdcoe.net/PSP/appNet/Store/ItemDetailV12.aspx?ItemPtr=274&StoreOrderId=0&CatID=2" target="_blank" style="color:#fff;">2 month view wall calendars</a> produced by Graphic Productions.</p>
-                          <p>Contact Candida at <strong>858-290-5576</strong> for more information.</p>
-                        </div>
-                        <div class="row" style="background-image: url(././images/background.png);padding: 10rem 2rem;">
-                          <div class="col-md-6 text-center">
-                            <h1 style="color: #000;">Digital Archiving</h1>
-                            <img src="./images/platform.png" alt="Digital Network Icon" />
-                          </div>
-                          <div class="col-md-6">
-                            <p>Tired of having all those file cabinets full of documents taking up your valuable office space? Why not have them scanned and delivered to you so you can simply upload them to a digital drive?</p>
-                            <p>Plus, our specially designed software will make your image-based files searchable too! Save time and space by digitizing your important (and not so important) docs today.</p>
-                          </div>
-                        </div>
-                        <div class="row text-center" style="padding: 10rem 0;">
-                          <div>
-                            <h1 style="color: #004588;">Contact Us</h1>
-                            <h4>Phone</h4>
-                            <p>858-290-5576</p>
-                            <h4>Email</h4>
-                            <p>graphics@sdcoe.net</p>
-                            <h4>Hours of Operation</h4>
-                            <p>Monday - Friday:  7:00 am - 3:30 pm</p>
-                          </div>
-                        </div>
-                        <!--END INPUT -->
-                    </div>
+					<div>
+						<link rel="preconnect" href="https://fonts.gstatic.com">
+						<!-- SECTION THAT WILL GO INTO EDITOR -->
+
+						<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+						<!-- CSS -->
+						<link href="https://fonts.gstatic.com" rel="preconnect" />
+						<style type="text/css">
+							.navbar {
+								border: none;
+								background: #fff;
+								max-width: 1200px;
+								margin: auto;
+							}
+
+							.navbar-container {
+								max-width: 1200px;
+							}
+
+							.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:focus {
+								color: #004588;
+							}
+
+							.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+								color: #004588;
+								font-family: 'Montserrat';
+								font-weight: normal;
+								text-decoration: none;
+							}
+
+							#main-content {
+								max-width: 1200px;
+							}
+
+							a {
+								text-decoration: underline;
+							}
+
+							h1 {
+								font-size: 3rem;
+							}
+
+							h2 {
+								font-size: 2.5rem;
+							}
+
+							h3 {
+								font-size: 2rem;
+							}
+
+							.carousel h1, .carousel h2, .carousel h3 {
+								color: #fff;
+							}
+
+							.carousel-caption {
+								background-color: rgb(0, 69, 136, .8);
+								color: #FFF;
+								right: 0;
+								left: 50%;
+							}
+
+							h1, h3, h2 {
+								background-color: transparent;
+								width: 100%;
+								text-decoration-color: #fff;
+								font-family: 'Montserrat';
+								font-weight: 300;
+								color: #000;
+							}
+
+							.services-row {
+								margin: 5rem auto 5rem auto;
+							}
+
+							.services-row .card {
+								padding: .5rem;
+							}
+
+							.services-row .card .img-responsive {
+								width: 80%;
+								margin: auto;
+							}
+
+							.services-row .card:hover {
+								cursor: pointer;
+							}
+
+							.card {
+								position: relative;
+								display: inline-block;
+								border-radius: 5px;
+								background-color: #fff;
+								transition: all 0.3s ease-in-out;
+								height: 100%;
+							}
+
+							.card::after {
+								content: '';
+								position: absolute;
+								z-index: -1;
+								width: 100%;
+								height: 100%;
+								opacity: 0;
+								border-radius: 5px;
+								box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+								transition: opacity 0.3s ease-in-out;
+								top: 0;
+							}
+							.card:hover {
+								transform: scale(1.1, 1.1);
+							}
+
+							.card:hover::after {
+								opacity: 1;
+							}
+
+							.card a {
+								text-decoration: none;
+								color: #000;
+							}
+
+							.card ul li {
+								font-size: 1.3rem;
+								color: #000;
+							}
+
+							.featured h1, .featured h2, .featured h3, .featured p {
+								color: #fff;
+							}
+
+							@media all and (min-width: 1200px) {
+								.col-lg-2 {
+									width: 20%;
+								}
+							}
+						</style>
+						<!-- LARGE BANNER -->
+						<div class="carousel slide" data-ride="carousel" id="myCarousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img alt="Large print design photo sample" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/datacenter.png" />
+									<div class="carousel-caption">
+										<h2>Large Print Design Now Available!</h2>
+
+										<h3><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" style="color:#fff;" target="_blank">Order Now</a></h3>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- SERVICES -->
+
+						<div class="row services-row">
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<div class="card">
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank"><img alt="Custom design icon" class="img-responsive" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/custom-icon.png" /> </a>
+
+									<h3 class="text-center"><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank">Custom Design</a></h3>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank"> </a>
+
+									<ul>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank">Customized design</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank">Extended timelines</a></li>
+									</ul>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=15" target="_blank"> </a>
+								</div>
+							</div>
+							<!--
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<a href="designconductor.html" target="_blank">
+									<div class="card">
+										<img class="img-responsive" src="./images/template-icon.png" alt="Templates design icon"/>
+										<h3 class="text-center">Templates Design</h3>
+										<ul>
+											<li>SDCOE branded templates</li>
+											<li>Quick turn-around</li>
+										</ul>
+									</div>
+								</a>
+							</div>
+							-->
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<div class="card">
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank"><img alt="Print and copy icon" class="img-responsive" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/printer.png" /> </a>
+
+									<h3 class="text-center"><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">Print &amp; Copy</a></h3>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank"> </a>
+
+									<ul>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">Black and white copies</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">Booklets</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">Brochures</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank">Postcards</a></li>
+									</ul>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=1" target="_blank"> </a>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<div class="card">
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank"><img alt="Wide format icon" class="img-responsive" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/poster-icon.png" /> </a>
+
+									<h3 class="text-center"><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank">Wide Format</a></h3>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank"> </a>
+
+									<ul>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank">Bond paper, foam-core, PVC, acrylic, aluminum, etc.</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank">Posters, banners, vinyl lettering, pop-ups stands, acrylic barriers</a></li>
+									</ul>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=10" target="_blank"> </a>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<div class="card">
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank"><img alt="Laser projects icon" class="img-responsive" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/laser-engraving-icon.png" /> </a>
+
+									<h3 class="text-center"><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank">Laser projects</a></h3>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank"> </a>
+
+									<ul>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank">Acrylic awards</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank">Name plates and badges</a></li>
+										<li><a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank">Pens, medals, and</a></li>
+									</ul>
+									<a href="http://designprint.sdcoe.net/PSP/Appnet/PrintOrderPublic/OrderRedirect.aspx?OCID=26" target="_blank"> </a>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-4 col-sm-6">
+								<div class="card">
+									<a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank"><img alt="Office supplies icon" class="img-responsive" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/office-materials-icon.png" /> </a>
+
+									<h3 class="text-center"><a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">Office Supplies</a></h3>
+									<a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank"> </a>
+
+									<ul>
+										<li><a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">Envelopes and Letterhead</a></li>
+										<li><a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">SDCOE Pocket folders</a></li>
+										<li><a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">Calendars</a></li>
+										<li><a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank">Paper, Boxes, and Binders</a></li>
+									</ul>
+									<a href="http://designprint.sdcoe.net/psp/appNet/Store/StoreHomeV12.aspx?StartEntry=1&amp;url=/psp/appNet/net2asp/net2asp_MkActive.aspx" target="_blank"> </a>
+								</div>
+							</div>
+						</div>
+						<!-- BOTTOM -->
+
+						<div class="featured text-center row" style="background-image: url('https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/background2.png');padding: 4rem 2rem 12rem; margin-bottom: 7rem;">
+							<h1>Featured</h1>
+
+							<hr />&nbsp;
+							<h3><a href="http://designprint.sdcoe.net/PSP/appNet/Store/StoreHomeV12.aspx?StoreOrderId=0&amp;CatID=2" style="color:#fff;">2021 Calendars</a></h3>
+
+							<p style="font-size:12pt;">Now available <a href="http://designprint.sdcoe.net/PSP/appNet/Store/ItemDetailV12.aspx?ItemPtr=273&amp;StoreOrderId=0&amp;CatID=" style="color:#fff;" target="_blank">2021 desk calendars</a> and <a href="http://designprint.sdcoe.net/PSP/appNet/Store/ItemDetailV12.aspx?ItemPtr=274&amp;StoreOrderId=0&amp;CatID=2" style="color:#fff;" target="_blank">2 month view wall calendars</a> produced by Graphic Productions.</p>
+
+							<p style="font-size:12pt;">Contact Candida at <strong>858-290-5576</strong> for more information.</p>
+						</div>
+
+						<div class="row" style="background-image: url('https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/background.png');padding: 10rem 2rem;">
+							<div class="col-md-6 text-center">
+								<h1 style="color: #000;">Digital Archiving</h1>
+								<img alt="Digital Network Icon" src="https://www.sdcoe.net/ITS/media-and-creative-services/PublishingImages/Graphics%20Prod%20Site/platform.png" />
+							</div>
+
+							<div class="col-md-6">
+								<p style="font-size:12pt;">Tired of having all those file cabinets full of documents taking up your valuable office space? Why not have them scanned and delivered to you so you can simply upload them to a digital drive?</p>
+
+								<p style="font-size:12pt;">Plus, our specially designed software will make your image-based files searchable too! Save time and space by digitizing your important (and not so important) docs today.</p>
+							</div>
+						</div>
+
+						<div class="row text-center" style="padding: 10rem 0;font-size:12pt;">
+							<div>
+								<h1 style="color: #004588;">Contact Us</h1>
+								<h4>Phone</h4>
+								<p>858-290-5576</p>
+								<h4>Email</h4>
+								<p>graphics@sdcoe.net</p>
+								<h4>Hours of Operation</h4>
+								<p>Monday - Friday: 7:00 a.m. - 3:30 p.m.</p>
+							</div>
+						</div>
+						<!--END INPUT -->
+					</div>
                 </div>			
-				
-	
-				
 					<hr />
 				
 					<div class="row">
